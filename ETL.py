@@ -10,5 +10,5 @@ import csv
 CSV_F = csv.reader(open('test.csv', 'r'))
 CSV_OUT = csv.writer(open('output.csv', 'wb'))
 for row in CSV_F:
-    print row[2].upper()
+    row[2] = row[2].upper()
     CSV_OUT.writerow(row)
