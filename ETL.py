@@ -7,9 +7,9 @@ import csv
 [30] '''
 
 
-CSV_F = csv.reader(open('test.csv', 'r'))
+CSV_IN = csv.reader(open('test.csv', 'r'))
 CSV_OUT = csv.writer(open('output.csv', 'wb'))
-for row in CSV_F:
+for row in CSV_IN:
     ##---put in the stuff---##
     row[2] = row[2].upper()
 
