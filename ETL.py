@@ -1,7 +1,9 @@
 """code to import patients from a .csv file and simply store them in a list"""
 # pylint likes variables to be all caps
 import csv
-'''[0]: Emp ID, [1]: Empl Rcd, [2]: First Name, [3]: Middle Initial, [4]: Last Name, [5]:Home Facility, [6]:Department Code, [7]: Department Name, [8]: Location, [9]: Union
+'''[0]: Emp ID, [1]: Empl Rcd, [2]: First Name, [3]: Middle Initial,
+[4]: Last Name, [5]:Home Facility, [6]:Department Code, [7]: Department Name,
+[8]: Location, [9]: Union
 [10]:
 [20]
 [30] '''
