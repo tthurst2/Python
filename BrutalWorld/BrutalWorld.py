@@ -9,4 +9,4 @@ while i < len(target_array):
     if string_array[i] == target_array[i]:
         i += 1
     print("".join(string_array), end="\r")
-    time.sleep(.006)
+    time.sleep(.005)
