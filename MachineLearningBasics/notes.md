@@ -9,3 +9,10 @@ Model - Defines the relationship between feature and label.
 Types of Models:
 Regression - A model that predicts continuous values.
 Classification - A model that predicts discrete values.
+-- 
+Simple ML formula:
+y = wx + b
+y = label
+w = weights
+x = feature
+b = bias
