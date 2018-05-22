@@ -11,6 +11,7 @@ Training - Determine good values for weights and bias that minimizes loss.
 Types of Models:
 Regression - A model that predicts continuous values.
 Classification - A model that predicts discrete values.
+Linear Gradient - x^2
 -- 
 Simple ML formula:
 y = wx + b
