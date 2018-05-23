@@ -1,7 +1,7 @@
 from __future__ import print_function
 import random, time, sys
 
-
+time_start = time.clock()
 if sys.argv[1:]:
     target_array = []
     for x in sys.argv[1:]:
@@ -16,3 +16,4 @@ while i < len(target_array):
         i += 1
     print("".join(string_array), end="\r")
     time.sleep(.004)
+print(time.clock() - time_start, "seconds")
