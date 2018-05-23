@@ -16,4 +16,4 @@ while i < len(target_array):
         i += 1
     print("".join(string_array), end="\r")
     time.sleep(.004)
-print(time.clock() - time_start, "seconds")
+print("".join(string_array), round(time.clock() - time_start, 3), "seconds")
