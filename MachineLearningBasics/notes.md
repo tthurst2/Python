@@ -25,6 +25,7 @@ b = bias
 
 
 
+
 (references):
 Site - https://developers.google.com/machine-learning/crash-course/
 Video Source - https://www.reddit.com/r/programming/comments/8k3s6g/google_provides_free_machine_learning_course_for/dz4rqf8/
