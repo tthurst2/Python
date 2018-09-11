@@ -12,6 +12,6 @@ text = f.read()
 outputFile=  re.findall(pattern, text, re.DOTALL)
 f = open(outFile, "w")
 #print outputFile
-f.write("ID" +  "USERNAME" + "FULL NAME" + "|" + "LAST LOGIN" + "|" + "M. LOGIN" + "|" + "GROUPS" + "\n")
+f.write("ID" + "|" +  "USERNAME" + "|" + "FULL NAME" + "|" + "LAST LOGIN" + "|" + "M. LOGIN" + "|" + "GROUPS" + "\n")
 for output in outputFile:
   f.write(output[0]+ "|" +  output[1].strip() + "|" + output[2].strip() + "|" +  output[3].strip() + "|" +  output[4].strip() + "|" +  output[5].strip() + "|" + output[6].replace('|', ','))
