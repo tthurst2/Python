@@ -13,4 +13,4 @@ outputFile=  re.findall(pattern, text, re.DOTALL)
 f = open(outFile, "w")
 #print outputFile
 for output in outputFile:
-  f.write(output[0]+ ", " +  output[1].strip() + ", " + output[2].strip() + ", " +  output[3].strip() + ", " +  output[4].strip() + ", " +  output[5].strip() + ", " + output[6])
+  f.write(output[0]+ ", " +  output[1].strip() + ", " + output[2].replace(',', '|').strip() + ", " +  output[3].strip() + ", " +  output[4].strip() + ", " +  output[5].strip() + ", " + output[6])
