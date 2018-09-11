@@ -1,4 +1,5 @@
-A file used to parse a weird report formatted text file of user data
+A program to parse a really weird formatted text file of user data.
+A decent example of dealing with a multi line regular expression and inputting via chunk
 
 Useful stuff I should use for future regex in python:
 
