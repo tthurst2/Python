@@ -2,7 +2,7 @@ import re
 
 inFile = 'Files/userlist.txt'
 outFile = 'Files/userOutput.txt'
-pattern = r'.*?         (\d{2,4})\s+([A-Z]\S*)\n.*?Full Name: ([\w]+.*?)\n.*?Last Login: (.*?) Password Expires: (.*?) Multiple Login: (.*?)\n.*?Groups: (.*?\n)'
+pattern = r'.*?      [\* ][\* ][\* ](\d{2,4})\s+([A-Z]\S*)\n.*?Full Name: ([\w]+.*?)\n.*?Last Login: (.*?) Password Expires: (.*?) Multiple Login: (.*?)\n.*?Groups: (.*?\n)'
 new_file =[]
 f = open(inFile, "r")
 text = f.read()
