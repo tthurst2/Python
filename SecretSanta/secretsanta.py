@@ -14,8 +14,13 @@ santaList = [Person("Pat", 1, 1), Person("Missy", 1, 2), Person("Lisa", 1, 3), P
 ### randomly pick secret santa gifts
 
 for x in santaList:
-    x.gift1 = random.choice(santaList).name
-    x.gift2 = random.choice(santaList).name
+    
+    while(True):
+        z = random.choice(santaList)
+        if x.family != z.family :
+            x.gift1 = z.name
+            break
+
 
 ###
 
