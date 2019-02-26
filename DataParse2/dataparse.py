@@ -1,7 +1,7 @@
 import re
 
-inFile = 'Files/userlist09192018.txt'
-outFile = 'Files/userOutput09192018.txt'
+inFile = 'Files/inactiveUserlist02262019.txt'
+outFile = 'Files/inactiveUserOutput02262019.txt'
 pattern = r'.*?      [\* ][\* ][\* ](\d{2,4})\s+([A-Z]\S*)\n.*?Full Name: ([\w]+.*?)\n.*?Last Login: (.*?) Password Expires: (.*?) Multiple Login: (.*?)\n.*?Groups: (.*?\n)'
 new_file =[]
 f = open(inFile, "r")
